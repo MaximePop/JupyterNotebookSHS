@@ -1,0 +1,12 @@
+# In _config.yml
+title: My sample book
+author: The Jupyter Book Community
+logo: logo.png
+execute:
+  execute_notebooks: force
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+  launch_buttons:
+  binderhub_url: "https://mybinder.org/v2/gh/MaximePop/testJupyter/HEAD"  # The URL for your BinderHub (e.g., https://mybinder.org)

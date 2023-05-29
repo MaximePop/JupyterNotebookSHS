@@ -1,0 +1,40 @@
+version: 1
+site:
+  template: book-theme
+  title: Les Jupyter Notebooks en SHS
+  domains:
+    - maximepopineau-project.curve.space
+  authors:
+    - name: POPINEAU Maxime
+      corresponding: true
+      email: maxime.popineau@etu.univ-tours.fr
+      affiliations:
+        - Digit_Hum
+  license: CC-BY-4.0
+  open_access: true
+  venue:
+    title: Lien vers le projet Digit_Hum
+    url: https://digithum.huma-num.fr/
+  repository:
+    url: https://github.com/MaximePop/Jupyter-Notebook-in-social-science
+  github_project: MaximePop/Jupyter-Notebook-in-social-science
+  keywords:
+    - Jupyter Notebook
+    - Sciences humaines et sociales
+  projects: []
+  nav:
+    - title: Mon article sur les Jupyter Notebooks
+      children:
+        - title: Utilisation des Jupyter Notebooks en Sciences Humaines et Sociales
+          url: /blog
+        - title: Quels usages pour les Jupyter Notebooks en Sciences Sociales?
+          url: /blog/markdown
+        - title: Un panorama des pratiques informatiques dans les publications de recherche dans la base de données HAL.
+          url: /blog/markdown-notebooks
+  actions:
+    - title: GitHub
+      url: https://github.com/MaximePop/Jupyter-Notebook-in-social-science
+    - title: Twitter
+      url: https://twitter.com/POPINEAUMaxime
+    - title: Curvenote
+      url: https://curvenote.com/docs/overview
